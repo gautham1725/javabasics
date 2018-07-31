@@ -14,5 +14,5 @@ public class Car {
 		this.speed=speed;
 		System.out.println("one arg cons");
 	}
-
+	
 }

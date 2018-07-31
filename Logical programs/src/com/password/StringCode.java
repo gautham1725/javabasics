@@ -2,16 +2,11 @@ package com.password;
 import java.util.*;
 
 public class StringCode{
-	
 
 public static String output1=""; 
 
-
-
-
 public static String findStringCode(String input1) {  
-	int concat=0;
-
+	
 	String strArr[] = input1.split(" ");
 	int res=0;
 	
@@ -31,10 +26,16 @@ public static String findStringCode(String input1) {
 		int b = a[j] - a[len-(j+1)];
 		res+= b;
 	}
+	
+	if(res<0) {
+		res = -res;
+	}
+	
 	output1+=res;
 	
 	}
 	return output1;
+	
 } 
 
 public static void main(String[] args){
@@ -44,6 +45,5 @@ public static void main(String[] args){
 	
 	System.out.println(findStringCode(input1.toUpperCase()));
 
-	
            }
 }

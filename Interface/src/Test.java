@@ -7,7 +7,7 @@ public class Test {
 		
 		System.out.println(t1  instanceof Bus);
 		
-		t1.Bus();
+	//	t1.Bus();
 	}
 
 }

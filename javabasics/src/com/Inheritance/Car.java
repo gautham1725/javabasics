@@ -1,11 +1,17 @@
 package com.Inheritance;
 
+import com.basic.Employee;
+
 public class Car {
 	
 	String regnum;
 	int engsize;
 	int speed;
 	
+	// import package
+	public void getSpeed(Employee e1) {
+		
+	}
 	public Car() {
 		
 		System.out.println("empty arg cons");
