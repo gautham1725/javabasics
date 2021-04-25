@@ -1,8 +1,0 @@
-package com.servlet;
-
-import javax.servlet.
-
-public class FirstServlet extends HttpServlet {
-	
-	
-}
